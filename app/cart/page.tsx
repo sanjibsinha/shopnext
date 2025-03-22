@@ -8,6 +8,7 @@ import { useCartStore } from '../lib/store';
 import Header from '../components/Header';
 import { Toaster } from 'react-hot-toast';
 
+// commit to GitHub
 export default function CartPage() {
   const { items, total, removeItem, updateQuantity } = useCartStore();
 
